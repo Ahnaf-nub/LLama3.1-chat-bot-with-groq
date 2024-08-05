@@ -3,7 +3,7 @@ import flet as ft
 
 # Initialize Groq client with API key
 client = Groq(
-    api_key='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',
+    api_key='your_groq_api_key_here',
 )
 
 class Message:
@@ -26,6 +26,10 @@ def main(page: ft.Page):
     def send_click(e):
         user_message = new_message.value
         if user_message:
+            new_message.value = ""
+            processing_text = ft.Text("Processing answer...", color="blue")
+            chat.controls.append(processing_text)
+            page.update()
             chat_completion = client.chat.completions.create(
                 messages=[
                     {
