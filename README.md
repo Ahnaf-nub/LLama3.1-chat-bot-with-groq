@@ -1,12 +1,13 @@
 # Llama 3.1 Chatbot with Flet 
 A simple chatbot application using Llama 3.1 model from Groq, built with the Flet framework. This app provides a user interface for sending messages to the chatbot and receiving responses.
+![image](https://github.com/user-attachments/assets/fc0dbd5b-6f11-4e42-9bd2-0dd9e316e3aa)
 ## Installation
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/llama-chatbot.git
-    cd llama-chatbot
+    git clone https://github.com/Ahnaf-nub/LLama3.1-chat-bot-with-groq.git
+    cd LLama3.1-chat-bot-with-groq
     ```
 
 2. Install the required Python packages:
